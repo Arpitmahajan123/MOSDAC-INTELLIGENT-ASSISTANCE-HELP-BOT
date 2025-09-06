@@ -20,7 +20,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🛰️ MOSDAC AI Help Bot")
+st.title("🛰️ MOSDAC AI Help Bot - $ Arpit Mahajan ")
 st.markdown("Intelligent assistance for MOSDAC portal information retrieval")
 
 # Sidebar for admin functions
@@ -39,7 +39,7 @@ with st.sidebar:
                 st.error(f"Error initializing knowledge graph: {str(e)}")
     
     if st.button("Scrape MOSDAC Portal"):
-        with st.spinner("Scraping MOSDAC portal content..."):
+        with st.spinner("Scraping MOSDAC portal content !"):
             try:
                 # Scrape main portal pages
                 urls_to_scrape = [
@@ -117,11 +117,11 @@ if prompt := st.chat_input("Ask me anything about MOSDAC portal..."):
 st.markdown("---")
 st.markdown("""
 **Features:**
-- 🔍 Semantic search across MOSDAC portal content
-- 🧠 Knowledge graph-based information retrieval
-- 🗣️ Natural language query understanding
-- 📊 Geospatial data intelligence support
-- 🔄 Real-time response generation
+- 1. Semantic search across MOSDAC portal content
+- 2. Knowledge graph-based information retrieval
+- 3. Natural language query understanding
+- 4. Geospatial data intelligence support
+- 5. Real-time response generation
 
 **Data Sources:** MOSDAC portal content including FAQs, documentation, product catalogs, and satellite mission details.
 """)
